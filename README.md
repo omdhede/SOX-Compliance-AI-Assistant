@@ -1,6 +1,6 @@
 # 🛡️ SOX Compliance AI Assistant
 
-An AI-powered chatbot for SOX compliance, ITGC/ITAC testing, and IT audit guidance — built with Streamlit and Claude (Anthropic).
+An AI-powered chatbot for SOX compliance, ITGC/ITAC testing, and IT audit guidance — built with Streamlit and OpenAI.
 
 **Live Demo**: [Deploy link once hosted on Streamlit Cloud]
 
@@ -19,7 +19,7 @@ An AI-powered chatbot for SOX compliance, ITGC/ITAC testing, and IT audit guidan
 | Layer | Technology |
 |---|---|
 | UI | Streamlit |
-| LLM | Anthropic Claude Sonnet 4 |
+| LLM | OpenAI gpt-4o |
 | Memory | Streamlit session state (full context window) |
 | Deployment | Streamlit Community Cloud (free) |
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Enter your [Anthropic API key](https://console.anthropic.com) in the sidebar when the app opens.
+Enter your [OpenAI API key](https://platform.openai.com/api-keys) in the sidebar when the app opens.
 
 ## Deploy to Streamlit Cloud (free, public URL)
 
@@ -46,7 +46,7 @@ Enter your [Anthropic API key](https://console.anthropic.com) in the sidebar whe
 3. Connect your GitHub repo → select `app.py` as the entrypoint
 4. Under **Settings → Secrets**, add:
    ```
-   ANTHROPIC_API_KEY = "sk-ant-your-key-here"
+   OPENAI_API_KEY = "sk-ant-your-key-here"
    ```
 5. Deploy — you get a public URL like `https://your-app.streamlit.app`
 
