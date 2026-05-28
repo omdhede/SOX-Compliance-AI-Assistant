@@ -2,7 +2,7 @@
 
 An AI-powered chatbot for SOX compliance, ITGC/ITAC testing, and IT audit guidance — built with Streamlit and OpenAI.
 
-**Live Demo**: [SOX Compliance AI Assistant](https://sox-compliance-ai.streamlit.app)]
+**Live Demo**: [SOX Compliance AI Assistant](https://sox-compliance-ai.streamlit.app)
 
 ---
 
