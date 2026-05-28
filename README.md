@@ -2,7 +2,7 @@
 
 An AI-powered chatbot for SOX compliance, ITGC/ITAC testing, and IT audit guidance — built with Streamlit and OpenAI.
 
-**Live Demo**: [Deploy link once hosted on Streamlit Cloud]
+**Live Demo**: [SOX Compliance AI Assistant](https://sox-compliance-ai.streamlit.app)]
 
 ---
 
@@ -59,7 +59,6 @@ The assistant is grounded in a detailed system prompt covering:
 - SAP transaction-level audit evidence
 - Control deficiency classification standards
 
-This prompt was designed using structured prompt engineering techniques — see [Prompt Engineering project](link-to-your-prompt-library-repo) for the methodology.
 
 ## Author
 
